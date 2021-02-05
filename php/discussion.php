@@ -29,7 +29,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/discussion.css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="icon" href="./static/Tab_Logo.png">
+    <link rel="icon" href="./assets/images/logo.png">
     <title>Discussion-Forum</title>
 </head>
 <body>

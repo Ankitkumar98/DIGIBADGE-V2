@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/navbar.css" type="text/css">
-    <link href="css/ankit_login.css" rel="stylesheet" type="text/css" />
-    <link href="css/ankit_register.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="../css/navbar.css" type="text/css">
+    <link href="../css/ankit_login.css" rel="stylesheet" type="text/css" />
+    <link href="../css/ankit_register.css" rel="stylesheet" type="text/css" />
     <title>Document</title>
 </head>
 <body>

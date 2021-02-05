@@ -7,7 +7,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="web_quiz.css">
+    <link rel="stylesheet" type="text/css" href="../css/web_quiz.css">
     <script defer src="web_quiz.js"></script>
     <title>Test app</title>
 </head>

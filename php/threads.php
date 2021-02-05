@@ -26,7 +26,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/threads.css" type="text/css">
-    <link rel="icon" href="./static/Tab_Logo.png">
+    <link rel="icon" href="./assets/images/logo.png">
     <title>Discussion-Forum</title>
 </head>  
 <body> 

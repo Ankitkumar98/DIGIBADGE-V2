@@ -3,7 +3,7 @@
 <head>
   <title>REGISTER</title>
   <link rel="icon" href="./assets/images/logo.png" />
-  <link href="register.css" rel="stylesheet" type="text/css" />
+  <link href="../css/register.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
