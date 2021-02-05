@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <link rel="icon" href="../divyansh/assets/images/logo.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="./edit-profile.css" />
+    <link rel="stylesheet" type="text/css" href="../css/edit-profile.css" />
     <title>Edit Profile</title>
   </head>
   <body>
@@ -224,7 +224,6 @@
               <li><br></li>
               <li><a href="mailto:singh.divyansh1802@gmail.com">Divyansh_Singh</a></li>
               <li><a href="ankitkumar.adi13@gmail.com">Ankit_Kumar</a></li>
-              <li><a href="mailto:prasad.ashish162@gmail.com">Ashish_Prasad</a></li>
           </ul>
           </div>
         </div>

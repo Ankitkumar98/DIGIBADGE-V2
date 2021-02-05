@@ -1,0 +1,633 @@
+body {
+    background-color: black;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    line-height: 4em;
+    margin-top: 0;
+    padding-top: 0;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow: hidden;
+    display: block;
+    top: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    text-decoration: none;
+    display: inline-block;
+}
+
+nav li a {
+    z-index: 2;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 22px;
+    line-height: 1.19048;
+    font-weight: 600;
+    letter-spacing: .011em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    margin-right: 100px;
+    margin-left: 80px;
+}
+
+.row {
+    padding-top: 6%;
+    /* margin-right: 5%;
+    margin-left: 5%; */
+    display: flex;
+    justify-content: center;
+}
+
+.cardHeading {
+    color: #ffffff;
+    font-size: 21px;
+    line-height: 1.19048;
+    font-weight: 600;
+    letter-spacing: .011em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    padding-top: 20px;
+}
+
+.cardDescription {
+    color: #A1A1A6;
+    font-size: 19px;
+    line-height: 1.4211;
+    font-weight: 600;
+    letter-spacing: .012em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.cardDescription span {
+    text-decoration: none;
+    color: greenyellow;
+    line-height: 1.8em;
+    transition: all 0.6s ease;
+}
+
+.cardDescription a {
+    color: #A1A1A6;
+    text-decoration: none;
+}
+
+.cardDescription span:hover,
+a:hover {
+    color: greenyellow;
+    font-size: 22px;
+    transition: all 0.6s ease;
+}
+
+.dynamicTyping,
+.eofError,
+.coreyScraferDjango {
+    display: inline;
+    width: 30%;
+    padding: 10px;
+    margin: 10px;
+}
+
+.customCommandsFlask,
+.mysqlServerLinux {
+    display: inline;
+    width: 35%;
+    padding: 30px;
+    background-color: #181818;
+    box-shadow: 0 20px 15px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+.customCommandsFlask {
+    margin-right: 2%;
+}
+
+.mysqlServerLinux {
+    margin-right: 2%;
+}
+
+.createReactApp,
+.googleSheetsAsDatabase,
+.miguelFlask {
+    display: inline;
+    width: 30%;
+    padding: 10px;
+}
+
+
+/* .row {
+    padding-top: 6%;
+}
+
+.dynamicTyping span button {
+    outline: none;
+    border: none;
+    border-radius: 24px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.webDevelopment {
+    background-color: #181818;
+    color: white;
+    font-size: 19px;
+    line-height: 1.4211;
+    font-weight: 600;
+    letter-spacing: .012em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    box-shadow: 0 20px 15px 0 rgba(0, 0, 0, 0.2);
+    margin: 50px;
+    padding-top: 0.5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    border-radius: 20px;
+}
+
+.webDevelopment p {
+    font-size: 80px;
+    line-height: 1.05;
+    font-weight: 700;
+    letter-spacing: -.015em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.webDevelopment span {
+    color: #A1A1A6;
+}
+
+.functionalProgramming {
+    background-color: #181818;
+    color: white;
+    font-size: 19px;
+    line-height: 1.4211;
+    font-weight: 600;
+    letter-spacing: .012em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    box-shadow: 0 20px 15px 0 rgba(0, 0, 0, 0.2);
+    margin: 50px;
+    padding-top: 0.5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    border-radius: 20px;
+}
+
+.functionalProgramming p {
+    font-size: 80px;
+    line-height: 1.05;
+    font-weight: 700;
+    letter-spacing: -.015em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.functionalProgramming span {
+    color: #A1A1A6;
+}
+
+.systemProgramming {
+    background-color: #181818;
+    color: white;
+    font-size: 19px;
+    line-height: 1.4211;
+    font-weight: 600;
+    letter-spacing: .012em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    box-shadow: 0 20px 15px 0 rgba(0, 0, 0, 0.5);
+    margin: 50px;
+    padding-top: 0.5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    border-radius: 20px;
+}
+
+.systemProgramming p {
+    font-size: 80px;
+    line-height: 1.05;
+    font-weight: 700;
+    letter-spacing: -.015em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.systemProgramming span {
+    color: #A1A1A6;
+}
+
+.appDevelopment {
+    background-color: #181818;
+    color: white;
+    font-size: 19px;
+    line-height: 1.4211;
+    font-weight: 600;
+    letter-spacing: .012em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    box-shadow: 0 20px 15px 0 rgba(0, 0, 0, 0.5);
+    margin: 50px;
+    padding-top: 0.5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    border-radius: 20px;
+}
+
+.appDevelopment p {
+    font-size: 80px;
+    line-height: 1.05;
+    font-weight: 700;
+    letter-spacing: -.015em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.appDevelopment span {
+    color: #A1A1A6;
+}
+
+.machineLearning {
+    background-color: #181818;
+    color: white;
+    font-size: 19px;
+    line-height: 1.4211;
+    font-weight: 600;
+    letter-spacing: .012em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    box-shadow: 0 20px 15px 0 rgba(0, 0, 0, 0.5);
+    margin: 50px;
+    padding-top: 0.5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    border-radius: 20px;
+}
+
+.machineLearning p {
+    font-size: 80px;
+    line-height: 1.05;
+    font-weight: 700;
+    letter-spacing: -.015em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.machineLearning span {
+    color: #A1A1A6;
+}
+
+.gameDevelopment {
+    background-color: #181818;
+    color: white;
+    font-size: 19px;
+    line-height: 1.4211;
+    font-weight: 600;
+    letter-spacing: .012em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    box-shadow: 0 20px 15px 0 rgba(0, 0, 0, 0.5);
+    margin: 50px;
+    padding-top: 0.5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    border-radius: 20px;
+}
+
+.gameDevelopment p {
+    font-size: 80px;
+    line-height: 1.05;
+    font-weight: 700;
+    letter-spacing: -.015em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.gameDevelopment span {
+    color: #A1A1A6;
+}
+
+.dynamicTyping,
+.flask,
+.django,
+.react,
+.node,
+.scala,
+.haskell,
+.bash,
+.java,
+.flutter,
+.kivy,
+.python,
+.googleDevelopers,
+.cPlusPlusOpenGl,
+.cHash {
+    padding: 2%;
+    box-shadow: 0 20px 15px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.dynamicTyping img,
+.flask img,
+.django img,
+.react img,
+.node img,
+.scala img,
+.haskell img,
+.bash img,
+.java img,
+.flutter img,
+.kivy img,
+.python img,
+.googleDevelopers img,
+.cPlusPlusOpenGl img,
+.cHash img {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.cardHeading {
+    color: #ffffff;
+    font-size: 21px;
+    line-height: 1.19048;
+    font-weight: 600;
+    letter-spacing: .011em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    padding-top: 20px;
+}
+
+.cardDescription {
+    color: #A1A1A6;
+    font-size: 19px;
+    line-height: 1.4211;
+    font-weight: 600;
+    letter-spacing: .012em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.cardDescription span {
+    text-decoration: none;
+    color: greenyellow;
+    line-height: 1.8em;
+    transition: all 0.6s ease;
+}
+
+.cardDescription a {
+    color: #A1A1A6;
+    text-decoration: none;
+}
+
+.cardDescription span:hover,
+a:hover {
+    color: greenyellow;
+    font-size: 22px;
+    transition: all 0.6s ease;
+}
+
+.dynamicTyping {
+    margin-right: 20px;
+}
+
+.flask {
+    background: #ED213A;
+    background: -webkit-linear-gradient(to right, #93291E, #ED213A);
+    background: linear-gradient(to right, #93291E, #ED213A);
+    margin-right: 20px;
+}
+
+.flask .cardDescription {
+    color: #181818;
+}
+
+.react {
+    margin-right: 20px;
+}
+
+.functionalProgramming {
+    background: linear-gradient(to bottom, #4c102a 0%, #151516 100%);
+}
+
+.systemProgramming {
+    background: linear-gradient(to right top, #071931 0%, #33274f 50%, #661e43 100%);
+}
+
+.scala {
+    background-color: #181818;
+    margin-right: 20px;
+    box-shadow: 0 20px 15px 0 rgba(0, 0, 0, 0.2);
+}
+
+.haskell {
+    background-color: #181818;
+    margin-right: 20px;
+}
+
+.bash {
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.0);
+}
+
+.java {
+    margin-right: 20px;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.0);
+}
+
+.kivy {
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.0);
+}
+
+.flutter {
+    background: linear-gradient(to bottom, #203025 0%, #151516 100%);
+    margin-right: 20px;
+}
+
+.googleDevelopers {
+    background: #642B73;
+    background: -webkit-linear-gradient(to right, #C6426E, #642B73);
+    background: linear-gradient(to right, #C6426E, #642B73);
+}
+
+.python {
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.0);
+}
+
+.cPlusPlusOpenGl {
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.0);
+} */
+
+.btn {
+    border: 1px solid #3498db;
+    background: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: "montserrat";
+    cursor: pointer;
+    margin: 10px;
+    transition: 0.6s;
+    position: relative;
+    overflow: hidden;
+    margin-top: 30px;
+    color: #ffffff;
+}
+
+.corousal_btn1 {
+    color: #3498db;
+}
+
+.corousal_btn1:hover {
+    color: #fff;
+}
+
+.btn::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background: #3498db;
+    z-index: -1;
+    transition: 0.6s;
+}
+
+.corousal_btn1::before {
+    top: 0;
+    border-radius: 0 0 50% 50%;
+}
+
+.corousal_btn1:hover::before {
+    height: 180%;
+}
+
+.footer {
+    width: 100%;
+    height: auto;
+    background: #181818;
+    display: block;
+    margin-top: 3%;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-size: 22px;
+    line-height: 1.19048;
+    letter-spacing: .011em;
+}
+
+.inner_footer {
+    width: 95%;
+    margin: auto;
+    padding: 30px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+.footer_items {
+    width: 25%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+
+.footer_items h1 {
+    padding: 10px 0;
+    font-size: 25px;
+    color: #fff;
+}
+
+.footer_items p {
+    color: grey;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 25px;
+}
+
+.footer_items h2 {
+    margin: 10px 0;
+    color: grey;
+    font-size: 16px;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+
+.border {
+    height: 2px;
+    width: 40px;
+    background: #1b9bff;
+}
+
+.border ul {
+    list-style: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+}
+
+.border ul a {
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.border ul a:hover {
+    color: #1b9bff;
+}
+
+.border ul li {
+    margin: 10px 0;
+    height: 25px;
+}
+
+.border ul li i {
+    margin-right: 20px;
+}
+
+.social_media {
+    width: 100%;
+    color: #fff;
+    text-align: center;
+}
+
+.social_media a {
+    text-decoration: none;
+}
+
+.social_media i {
+    height: 15px;
+    width: 15px;
+    margin: 20px 5px;
+    padding: 10px;
+    color: #fff;
+    border-radius: 50%;
+    border: 1px solid grey;
+    transition: 0.3s;
+}
+
+.social_media i:hover {
+    background: grey;
+}
+
+.footer_bottom {
+    padding: 10px;
+    background: #000;
+    color: #fff;
+    font-size: 12px;
+    margin-top: 70px;
+    text-align: center;
+}
+
+@media screen and (max-width: 1085px) {
+    .footer_items {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .footer_items {
+        width: 100%;
+    }
+}
